@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lorem Ipsum Generator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <h1>Lorem Ipsum Generator</h1>
-</body>
-<script type="module" src="main.js"></script>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lorem Ipsum Generator</h1>
+      <form>
+        <label for="length">Words:</label>
+        <input type="number" name="length" id="length" />
+        <button id="generate">Generate</button>
+      </form>
+      <textarea id="text"></textarea>
+    </div>
+  </body>
+  <script src="main.js"></script>
 </html>
